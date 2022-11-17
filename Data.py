@@ -55,4 +55,38 @@ with expander01:
     """)
 
 
+with expander02:
+    st.markdown("## Le métier de Data Engineer")
+    st.markdown("""
+    Le Data Engineer évolue dans le domaine des sciences de données. Il est chargé de trouver la solution pour importer un très grand nombre de données. Il rend plus facile leur collecte, leur analyse et leur stockage.Le Data Engineer est le responsable de l'infrastructure analytique de l'ensemble des données d'une entreprise. Son travail permet à l'équipe de Data Scientist d'analyser les données collectées.
+    """)
+    st.markdown("### Les missions du poste de Data Engineer")
+    st.markdown(""" Le Data Engineer met en place et rend opérationnel l'architecture et les infrastructures Big Data d'un client.
+Il conçoit donc des solutions qui permettent le traitement d'un volume très important de données.
+Le Data Engineer développe le flux de données et les prépare pour leur analyse. Il travaille en amont des Data Scientist.Son travail consiste à programmer, automatiser et optimiser les algorithmes de l'infrastructure ce qui permet ensuite aux équipes de Data Analyst et Data Scientist d'analyser les données collectées. Il intervient aussi auprès d'une équipe de Data tout au long des étapes de traitement des données.Tout au long de l'avancement du projet, il veille de manière permanente au maintien des technologies, langages et du bon fonctionnement des infrastructures. Il doit avoir une connaissance pointue des langages comme Javascript, Python, Scala.
+    """)
+    st.markdown("### Les compétences techniques")
+    st.markdown("""
+    - Maitrise des langages : Python, C / C ++, Java, Perl UNIX, Linux et Solaris.
+    - Maîtrise de divers systèmes d’exploitation : UNIX, Linux, Solaris...
+    - Connaissances en solutions de bases de données : SQL, NoSQL.
+    - Connaissance générale en terme de Big Data.
+    - Maitrise de ses technologies Anglais.
+    """)
+
+
+    st.markdown("### Softskills nécessaires pour le poste")
+    st.markdown("""
+    - Mobilité
+    - Disponibilité
+    - Esprit d'analyse
+    - Capacité d'organisation et d'analyse
+    - Adaptation
+    - Relationnel
+    - Force de proposition
+    - Réactivité
+    - Rigueur
+    """)
+
+
 st.write("Anas")

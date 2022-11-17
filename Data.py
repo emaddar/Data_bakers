@@ -53,3 +53,6 @@ with expander01:
     - l’élaboration de scénarios que l’entreprise pourrait rencontrer, afin de proposer des solutions d’anticipation ;
     - l’amélioration constante du système de récupération des données client, afin d’optimiser et d’agrandir le stock de données de l’entreprise.
     """)
+
+
+st.write("Anas")

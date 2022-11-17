@@ -21,7 +21,7 @@ def make_grid(cols,rows):
 
 mygrid = make_grid(3,3)   
 expander00 = mygrid[0][0].expander('Data Analyst')
-expander01 = mygrid[0][1].expander('Data Analyst')
+expander01 = mygrid[0][1].expander('Data scientist')
 expander02 = mygrid[0][2].expander('Data Analyst')
 
 with expander00:

@@ -22,7 +22,11 @@ def make_grid(cols,rows):
 mygrid = make_grid(3,3)   
 expander00 = mygrid[0][0].expander('Data Analyst')
 expander01 = mygrid[0][1].expander('Data scientist')
-expander02 = mygrid[0][2].expander('Data Analyst')
+expander02 = mygrid[0][2].expander('Data Engineer')
+
+expander10 = mygrid[0][0].expander('DataOps')
+expander11 = mygrid[0][1].expander('Data scientist')
+expander12 = mygrid[0][2].expander('Data Engineer')
 
 with expander00:
     st.markdown("## Fiche métier de data analyst")
@@ -62,8 +66,8 @@ with expander02:
     """)
     st.markdown("### Les missions du poste de Data Engineer")
     st.markdown(""" Le Data Engineer met en place et rend opérationnel l'architecture et les infrastructures Big Data d'un client.
-Il conçoit donc des solutions qui permettent le traitement d'un volume très important de données.
-Le Data Engineer développe le flux de données et les prépare pour leur analyse. Il travaille en amont des Data Scientist.Son travail consiste à programmer, automatiser et optimiser les algorithmes de l'infrastructure ce qui permet ensuite aux équipes de Data Analyst et Data Scientist d'analyser les données collectées. Il intervient aussi auprès d'une équipe de Data tout au long des étapes de traitement des données.Tout au long de l'avancement du projet, il veille de manière permanente au maintien des technologies, langages et du bon fonctionnement des infrastructures. Il doit avoir une connaissance pointue des langages comme Javascript, Python, Scala.
+    Il conçoit donc des solutions qui permettent le traitement d'un volume très important de données.
+    Le Data Engineer développe le flux de données et les prépare pour leur analyse. Il travaille en amont des Data Scientist.Son travail consiste à programmer, automatiser et optimiser les algorithmes de l'infrastructure ce qui permet ensuite aux équipes de Data Analyst et Data Scientist d'analyser les données collectées. Il intervient aussi auprès d'une équipe de Data tout au long des étapes de traitement des données.Tout au long de l'avancement du projet, il veille de manière permanente au maintien des technologies, langages et du bon fonctionnement des infrastructures. Il doit avoir une connaissance pointue des langages comme Javascript, Python, Scala.
     """)
     st.markdown("### Les compétences techniques")
     st.markdown("""
@@ -89,4 +93,52 @@ Le Data Engineer développe le flux de données et les prépare pour leur analys
     """)
 
 
-st.write("Anas")
+
+
+
+
+
+
+with expander10:
+    st.markdown("## Fiche métier de DataOps")
+    st. markdown("#### le DevOps appliqué à la data")
+    st.write("Avec l'essor de l'apprentissage automatisé (Machine Learning ou ML) et de l'intelligence artificielle (IA), les données sont générées en masse. Collectées ensuite par les entreprises, elles ne sont pas toujours maîtrisées. La démarche DataOps vise à gérer ces données avec efficience. Des plateformes et des outils dédiés permettent de mettre en œuvre cette méthodologie. Les pratiques associées sont au cœur du métier de l'ingénieur DataOps.")
+    st.markdown("### Le DataOps, qu'est-ce que c'est ?")
+    st.markdown("""
+        Le DataOps (Data Operations) optimise le cycle de vie des projets Data (relatifs aux données) et des analyses qui en sont issues. Selon le Gartner, il s’agit d’une pratique de gestion des données collaborative qui a pour but de favoriser l’exploitation de l’analytique dans les entreprises.
+    """)
+    st.markdown("### Quels sont les bénéfices du DataOps ?")
+    st.markdown("""
+        Le DataOps tend à accroître la rapidité et l’efficacité dans le traitement des données, afin qu’elles soient analysables et exploitables par les entreprises. Une meilleure productivité des équipes informatiques et une réduction des risques commerciaux constituent les principaux atouts de cette méthodologie.
+    """)
+
+    st.markdown("### Que recommande le DataOps Manifesto for agile ?")
+    st.markdown("""
+        Ce document référent en matière de méthodologie DataOps liste au total 18 principes. Ceux-ci comprennent notamment : la satisfaction continue du client, la valorisation des analyses de travail, l’acceptation du changement, la pluralité des rôles et des compétences dans les équipes (une diversité d’opinions encourageant l’innovation et la productivité), l’auto-organisation…
+
+        Le manifeste reprend les principales caractéristiques de la méthode agile, appliquées plus spécifiquement à l’approche du DataOps.
+    """)
+
+    st.markdown("### Quels sont les principaux outils et plateformes de DataOps ?")
+    st.markdown("""
+        Des éditeurs proposent des outils et des plateformes qui supportent cette méthodologie afin de faciliter sa mise en œuvre au sein des équipes. Ces solutions ont pour principal objectif la gestion du cycle de vie d’un projet Data, de sa création à sa mise en production. Saagie, IBM et Datalytyx, par exemple, ont créé des solutions complètes pour intégrer ces pratiques.
+    """)
+
+
+    st.markdown("### DataOps ingénieur : quel profil de compétences, salaire et formation ?")
+    st.markdown("""
+        L’ingénieur DataOps doit avoir un bac + 5 en informatique orientée Big Data (cursus universitaire en plein développement), ou être titulaire d’un diplôme d’ingénieur spécialisé dans la Data. Il pilote le pipeline d’analyse de données en production, et vérifie la disponibilité et la performance des systèmes. Selon sa formation et son expérience, le salaire d’un ingénieur DataOps oscille entre 50 et 80 KE par an.
+    """)
+
+    st.markdown("### DataOps vs DevOps")
+    st.markdown("""
+        Le DataOps intègre la base de données dans les tests, il s’agit de DevOps appliqué aux données afin de répondre à un besoin plus précis. Les deux démarches sont collaboratives et impliquent plusieurs métiers, le DataOps étant spécifiquement orienté vers les entreprises tournées vers la Data.
+    """)
+
+    st.markdown("### DataOps vs MLOps")
+    st.markdown("""
+        D’un point de vue méthodologique, on retrouve les mêmes approches adaptées à des domaines différents, bien que liés. Le DataOps participe au déploiement, à l’analyse et au monitoring des données (Data), tandis que le MLOps est orienté vers la création, le déploiement et le monitoring des modèles d’apprentissage automatique (Machine Learning).
+    """)
+
+
+    

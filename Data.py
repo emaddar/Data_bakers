@@ -412,5 +412,5 @@ plt.bar(courses, values, color ='maroon',
 plt.xlabel("métier")
 plt.xticks(rotation=60, ha='right')
 plt.ylabel("Salaire brut/an en €")
-plt.title("Salaires moyens  de Data Bakers en France (brut/an)")
+plt.title("Salaires moyens de Data Bakers en France (brut/an)")
 st.pyplot(fig)
